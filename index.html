@@ -1,87 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Infográfico sobre história da educação ambiental no Brasil</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css" />
-    <!-- Include jQuery Timeline CSS -->
-    <link href="css/jquery.roadmap.min.css" rel="stylesheet" type="text/css" />
-    <style>
-        .next,
-        .prev {
-            background-color: #fafafa;
-            font-family: 'Roboto';
-            overflow-x: hidden;
-        }
-        
-        h1 {
-            text-align: center;
-        }
-        
-        @media only screen and (max-width: 992px) {
-            .roadmap.roadmap--orientation-auto .roadmap__navigation>* {
-                top: 0%;
-            }
-        }
-        
-        @media only screen and (min-width: 993px) {
-            .roadmap__events__event {
-                width: 270px!important;
-            }
-            #my-timeline {
-                padding-top: 100px;
-            }
-        }
-    </style>
+    <link href="css/jquery.roadmap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
 
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">Históricos da Educação <wbr> Ambiental no Brasil</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-md-auto">
                 <li class="nav-item active dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      API's e Bibliotecas usadas
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        API's e Bibliotecas usadas
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" target="_blank" href="https://getbootstrap.com/">Bootstrap</a>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" target="_blank" href="https://jquery.com/">JQuery</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" target="_blank" href="https://www.jqueryscript.net/time-clock/Dynamic-Animated-Timeline-Slider.html">Dynamic Animated Timeline <wbr> Slider With jQuery</a>
+                        <a class="dropdown-item" target="_blank"
+                            href="https://www.jqueryscript.net/time-clock/Dynamic-Animated-Timeline-Slider.html">Dynamic
+                            Animated Timeline <wbr> Slider With jQuery</a>
                     </div>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" target="_blank" href="https://ambientes.ambientebrasil.com.br/educacao/dados_historicos/dados_historicos_da_educacao_ambiental_no_brasil.html">Fonte: AmbienteBrasil</a>
+                    <a class="nav-link" target="_blank"
+                        href="https://ambientes.ambientebrasil.com.br/educacao/dados_historicos/dados_historicos_da_educacao_ambiental_no_brasil.html">Fonte:
+                        AmbienteBrasil</a>
                 </li>
             </ul>
         </div>
     </nav>
     <div id="my-timeline"></div>
 
-
-    <!-- JQuery-->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-
-    <!-- JQuery RoadMap-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
     <script src="js/jquery.roadmap.js" type="text/javascript"></script>
-
     <script src="js/app.js" type="text/javascript"></script>
-
-    <!-- bootstrapcdn
-
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-     -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
 
 </body>
 

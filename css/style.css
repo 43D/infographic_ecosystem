@@ -1,0 +1,26 @@
+.next,
+.prev {
+    background-color: #fafafa;
+    font-family: 'Roboto';
+    overflow-x: hidden;
+}
+
+h1 {
+    text-align: center;
+}
+
+@media only screen and (max-width: 992px) {
+    .roadmap.roadmap--orientation-auto .roadmap__navigation>* {
+        top: 0%;
+    }
+}
+
+@media only screen and (min-width: 993px) {
+    .roadmap__events__event {
+        width: 270px !important;
+    }
+
+    #my-timeline {
+        padding-top: 100px;
+    }
+}
